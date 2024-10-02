@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(13, 13, 246);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+height: 100%;
+
+}
+ .container{
+
+    background-color: rgb(13, 13, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 200px;
+ }
+ .content{
+    text-align: center;
+    
+    background-color: rgba(205, 220, 233, 0.9);
+    padding: 2rem;
+    
+    border-radius: 10px;
+    max-width: 400px;
+   
+
+ }
+ .logo{
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+
+ }
+ h1{
+    color: rgb(71, 2, 2);
+    font-weight:bold;
+    margin-bottom: 20px;
+
+
+ }
+ p{
+    color: black;
+    margin-bottom: 20px;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+
+ }
+ input[type = "email"]{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1 rem;
+
+
+ }
+
+ button{
+    padding: 0.5rem;
+   background-color: rgb(8, 8, 148);
+   color: rgb(246, 244, 244);
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.4s ease-in-out;
+
+
+ }
+ button:hover{
+background-color: rgb(134, 134, 235);
+ }
